@@ -12,11 +12,9 @@ public class Person {
         // later add name of books for array list 
         
     }
-    /*
     public BookShelf getBook() {
-        
+        // create a bookshelf 
     }
-    */
 
     
 }
