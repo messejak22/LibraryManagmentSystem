@@ -1,5 +1,5 @@
 public class Book {
-   private String author 
+   private String author;
    private String title; 
    private String isbn; 
 
@@ -7,6 +7,10 @@ public class Book {
        this.author = author;
        this.title = title;
        this.isbn = isbn;
+   }
+
+   public String getTitle() {
+       return title;
    }
     
 }

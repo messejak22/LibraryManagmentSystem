@@ -1,4 +1,4 @@
-public class Borrower {
+public class Borrower extends Person {
 
 
 
