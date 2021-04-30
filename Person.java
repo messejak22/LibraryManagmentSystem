@@ -8,14 +8,15 @@ public class Person {
         this.password = password;
     }
 
-    public List inventory() {
-        // later add name of books for array list 
+    public String getUserName() {
+        return userName;
+    }
+    public int getPassword() {
+        return password;
+    }
 
-    }
-    public BookShelf getBook() {
-        // create a bookshelf 
+
         
-    }
 
     
 }

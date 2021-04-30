@@ -10,15 +10,15 @@ public class Bookshelf {
         bookList.add(b2);
     }
     public String getShelf() {
+        int count = 1;
         String bookIndex = "";
         for (Book b : bookList) {
-            bookIndex += b.getTitle() + "\n";
+            bookIndex += b.getTitle() + " (" + count + ") "+ "\n";
+            count++;
         }
         return bookIndex;
     }
     
 
-    public String toString() {
-        return "stuff";
-    }
+    
 }
