@@ -5,52 +5,44 @@ public class Main {
         
         // Welcome to the Library's data base 
         Scanner scan = new Scanner(System.in);
-        int userChoice;
+        int userChoice = 0;
         Bookshelf bs1 = new Bookshelf();
         Borrower b1 = new Borrower("ReaderMan", 1234);
         System.out.println("Welcome to the Seven Hills' Library Database!");
         System.out.println();
         // ask if user is a borrower or librarian (1) (2)
        
-        System.out.println("Enter (1) if you are a borrower or (2) if you are a librarian: ");
+        System.out.print("Enter (1) if you are a borrower or (2) if you are a librarian: ");
         userChoice = scan.nextInt();
-        
+        String temp = scan.nextLine(); 
          if (userChoice == 1) {
-            // if borrower branch 
-            // ID and password check 
-            System.out.println("Enter ID: ");
-            String id = scan.nextLine();
-            if (id.equals(b1.getUserName())) {
-                System.out.println("Enter password: ");
-                int password = scan.nextInt();
-                if (password == b1.getPassword()) {
+            boolean run = true;
+            while (run == true) {
+                System.out.print("Enter ID: ");
+                String id = scan.nextLine();
+                if (id.equals(b1.getUserName())) {
+                    System.out.print("Enter password: ");
+                    int password = scan.nextInt();
+                    if (password == b1.getPassword()) {
+                        run = false;
+                    } else {
+                      System.out.println("Wrong");  
+                    } // password 
+                } else {
+                    System.out.println("Wrong");
+                } // userName info  
+            } // end while loop 
+            
 
-                }
-            }
-            // ask if they want to return a book (1) or check one out (2) 
-            System.out.println("Enter (1) to return a book or (2) to check a book out: ");
-            int borrowerChoice1 = scan.nextInt();
-            if (borrowerChoice1 == 1) {
-                // if return book 
-                
-            } else {
-                // else check one out 
-                // print out all books 
-                System.out.println();
-                System.out.println(bs1.getShelf());
-                System.out.println("Enter desired book number: ");
-                int bookChoice = scan.nextInt();
-                
-            }
-        } else {
-            // else librarian branch 
-            System.out.println("Feature coming soon!");
-        } // end else if  
+         } else {
+            System.out.println("Coming soon");
+         } // librarian tree
+
+        
 
 
 
-
-    }
+    } // end main method 
     
 
 
