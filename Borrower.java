@@ -4,12 +4,4 @@ public class Borrower extends Person {
         super(userName, password);
     }
 
-    
-
-
-
-
-
-
-    
 }
