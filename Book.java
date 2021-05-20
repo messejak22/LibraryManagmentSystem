@@ -1,16 +1,23 @@
 public class Book {
-   private String author;
    private String title; 
+   private String author;
    private String isbn; 
-
-   public Book(String author, String title, String isbn) {
-       this.author = author;
+   public Book(String title, String author, String isbn) {
        this.title = title;
+       this.author = author;
        this.isbn = isbn;
    }
 
    public String getTitle() {
-       return title;
+        return title;
+   }
+
+   public String getAuthor() {
+        return author;
+   }
+
+   public String getIsbn() {
+        return isbn;
    }
     
 }

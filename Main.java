@@ -32,7 +32,31 @@ public class Main {
                     System.out.println("Wrong");
                 } // userName info  
             } // end while loop 
-            
+           
+            // Check out vs return 
+            System.out.println("Enter (1) to check out or (2) to return: ");
+            int checkOut = scan.nextInt();
+            if (checkOut == 1) {
+                // list books (isbn used to check out) 
+                for (int i = 0; i < bs1.getShelf().size(); i++) {
+                    System.out.println(bs1.getShelf().get(i).getTitle() + " by, " + bs1.getShelf().get(i).getAuthor() + " " + bs1.getShelf().get(i).getIsbn());
+                }
+
+                System.out.print("Enter ISBN for checkout: ");
+                String temp1 = scan.nextLine();
+                String bookChoice = scan.nextLine();
+
+                for (int i = 0; i < bs1.getShelf().size(); i++) {
+                    if (bookChoice.equals(bs1.getShelf().get(i).getIsbn())) {
+                        b1.getInventory().add(bs1.getShelf().get(i));
+                    }
+                }
+                
+            } else {
+                // list inventory with return number (isbn used to return books)
+                System.out.println("Coming soon");
+
+            }
 
          } else {
             System.out.println("Coming soon");
