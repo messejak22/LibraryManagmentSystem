@@ -5,20 +5,30 @@ public class Librarian extends Person {
     }
 
 
-    public static void isbnChecker(String isbn) {
+    public static boolean isbnChecker(String isbn) {
         // if x 
         int sum = 0;
-        if (isbn.contains("X") == true) {
 
-        } else {
-            // no x   
-            int isbn2 = Integer.valueOf(isbn);
-            int k = 0;
-            for (int i = 10; i > isbn.length(); i--) {
-                 sum = sum + i*(Integer.valueOf(isbn.charAt(k)));
-                 k++;
+        
+        int j = 0;
+        for (int i = 10; i > isbn.length(); i--) {
+            if (isbn.charAt(i) == 'X') {
+                sum = sum + i*10;
+            } else {
+                sum = sum + i*(Integer.valueOf(isbn.charAt(j)));
+                j++;
+ 
             }
         }
+            if (sum%11 == 0) {
+                return true;
+            } else {
+                return false; 
+            }
+
+            
+      
+        
     }
     
 }

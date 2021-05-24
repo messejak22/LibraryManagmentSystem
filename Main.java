@@ -1,8 +1,12 @@
 import java.util.Scanner;
+import java.io.FileInputStream;
+
 public class Main {
 
     public static void main(String[] args) {
-        
+
+       
+    
         // Welcome to the Library's data base 
         Scanner scan = new Scanner(System.in);
         int userChoice = 0;
@@ -13,7 +17,7 @@ public class Main {
         System.out.println();
         // ask if user is a borrower or librarian (1) (2)
        
-        System.out.print("Enter (1) if you are a borrower or (2) if you are a librarian: ");
+        System.out.print("Enter (1) if you are a borrower or (2) if you are a librarian: (3) to create a new borrower account: ");
         userChoice = scan.nextInt();
         String temp = scan.nextLine(); 
          if (userChoice == 1) {
@@ -59,6 +63,13 @@ public class Main {
 
             }
 
+         } else if (userChoice == 3) {
+            /*
+                This branch will be used to create new users.
+
+            */
+            
+            
          } else {
             boolean run = true;
             while (run == true) {
@@ -108,7 +119,6 @@ public class Main {
          } // librarian tree
 
         
-
 
 
     } // end main method 
