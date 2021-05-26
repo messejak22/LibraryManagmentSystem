@@ -5,25 +5,26 @@ public class Main {
 
     public static void main(String[] args)  {
 
-        int const NUMBOOKS = 100;
-     
+        int NUMBOOKS = 3;
+        Bookshelf bs1;
+        
         // Welcome to the Library's data base 
         // load in book data from textfile
         try {
             File myObj = new File("books.txt");
-            Scanner scan = new Scanner(myObj);
+            Scanner scanF = new Scanner(myObj);
 
             int j = 0;
             String[][] catalog = new String[NUMBOOKS][6];
 
-            while(scan.hasNext()) {
-                String data = scan.nextLine();
-                fields[j] = data.split(",");
+            while(scanF.hasNext()) {
+                String data = scanF.nextLine();
+                catalog[j] = data.split(",");
                 j++;
             }
-            scan.close();
+            scanF.close();
             // come back and build out books
-            Bookshelf bs1 = new Bookshelf(catalog);
+            bs1 = new Bookshelf(catalog);
        
 
         } catch (FileNotFoundException e ) {
@@ -34,6 +35,7 @@ public class Main {
 
 
 
+        Scanner scan = new Scanner(System.in);
 
         int userChoice = 0;
         Borrower b1 = new Borrower("ReaderMan", 1234);
@@ -68,8 +70,8 @@ public class Main {
             int checkOut = scan.nextInt();
             if (checkOut == 1) {
                 // list books (isbn used to check out) 
-                for (int i = 0; i < bs1.getShelf().size(); i++) {
-                    System.out.println(bs1.getShelf().get(i).getTitle() + " by, " + bs1.getShelf().get(i).getAuthor() + " " + bs1.getShelf().get(i).getIsbn());
+                for (int i = 0; i < NUMBOOKS; i++) {
+                    //System.out.println(bs1.getShelf().get(i).getTitle() + " by, " + bs1.getShelf().get(i).getAuthor() + " " + bs1.getShelf().get(i).getIsbn());
                 }
 
                 System.out.print("Enter ISBN for checkout: ");
@@ -77,11 +79,13 @@ public class Main {
                 String bookChoice = scan.nextLine();
             
 
-                for (int i = 0; i < bs1.getShelf().size(); i++) {
+                for (int i = 0; i < NUMBOOKS; i++) {
+                    /*
                     if (bookChoice.equals(bs1.getShelf().get(i).getIsbn())) {
                         b1.getInventory().add(bs1.getShelf().get(i));
 
                     }
+                    */
                 }
                 
             } else {
@@ -120,18 +124,20 @@ public class Main {
             int choice3 = scan.nextInt();
             if (choice3 == 1) {
                 // checkout 
-                for (int i = 0; i < bs1.getShelf().size(); i++) {
-                    System.out.println(bs1.getShelf().get(i).getTitle() + " by, " + bs1.getShelf().get(i).getAuthor() + " " + bs1.getShelf().get(i).getIsbn());
+                for (int i = 0; i < NUMBOOKS; i++) {
+                    //System.out.println(bs1.getShelf().get(i).getTitle() + " by, " + bs1.getShelf().get(i).getAuthor() + " " + bs1.getShelf().get(i).getIsbn());
                 }
                 
                 System.out.print("Enter ISBN for checkout: ");
                 String temp2 = scan.nextLine();
                 String bookChoice2 = scan.nextLine();
 
-                for (int i = 0; i < bs1.getShelf().size(); i++) {
+                for (int i = 0; i < NUMBOOKS; i++) {
+                    /*
                     if (bookChoice2.equals(bs1.getShelf().get(i).getIsbn())) {
-                        l1.getInventory().add(bs1.getShelf().get(i));
+                       l1.getInventory().add(bs1.getShelf().get(i));
                     }
+                    */
                 }
                 
             

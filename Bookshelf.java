@@ -13,13 +13,14 @@ public class Bookshelf {
         bookList = new ArrayList<Book>();
 
         for (int i = 0; i < catalog.length; i++) {
-            Book b1 = new Book(catalog[i][0], catalog[i][1], catalog[i][2], catalog[i][3], catalog[i][4], catalog[i][5]);
+            //  public Book(String title, String author, String isbn, String genre, boolean checkedOut, int yearPub) {
+            Book b1 = new Book(catalog[i][0], catalog[i][1], catalog[i][2], catalog[i][3], Boolean.parseBoolean(catalog[i][4]), Integer.parseInt(catalog[i][5]) );
         }
 
 
 
 
-
+        /*
 
         Book b1 = new Book("Green Eggs and Ham", "Dr. Seuss", "12514312X");
         Book b2 = new Book("Harry Potter", "JK Rowling", "12314312X");
@@ -29,6 +30,7 @@ public class Bookshelf {
         bookList.add(b2);
         bookList.add(b3);
         sort();
+        */
     }
 
 
