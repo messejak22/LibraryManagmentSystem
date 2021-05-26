@@ -1,26 +1,51 @@
 import java.util.Scanner;
-import java.io.FileInputStream;
-
+import java.io.File;
+import java.io.FileNotFoundException;
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
-       
-    
+        int const NUMBOOKS = 100;
+     
         // Welcome to the Library's data base 
-        Scanner scan = new Scanner(System.in);
+        // load in book data from textfile
+        try {
+            File myObj = new File("books.txt");
+            Scanner scan = new Scanner(myObj);
+
+            int j = 0;
+            String[][] catalog = new String[NUMBOOKS][6];
+
+            while(scan.hasNext()) {
+                String data = scan.nextLine();
+                fields[j] = data.split(",");
+                j++;
+            }
+            scan.close();
+            // come back and build out books
+            Bookshelf bs1 = new Bookshelf(catalog);
+       
+
+        } catch (FileNotFoundException e ) {
+            System.out.println("error");
+            e.printStackTrace();
+
+        }
+
+
+
+
         int userChoice = 0;
-        Bookshelf bs1 = new Bookshelf();
         Borrower b1 = new Borrower("ReaderMan", 1234);
         Librarian l1 = new Librarian("Librarian1", 4321);
         System.out.println("Welcome to the Seven Hills' Library Database!");
         System.out.println();
         // ask if user is a borrower or librarian (1) (2)
-       
+    
         System.out.print("Enter (1) if you are a borrower or (2) if you are a librarian: (3) to create a new borrower account: ");
         userChoice = scan.nextInt();
         String temp = scan.nextLine(); 
-         if (userChoice == 1) {
+        if (userChoice == 1) {
             boolean run = true;
             while (run == true) {
                 System.out.print("Enter ID: ");
@@ -31,13 +56,13 @@ public class Main {
                     if (password == b1.getPassword()) {
                         run = false;
                     } else {
-                      System.out.println("Wrong");  
+                    System.out.println("Wrong");  
                     } // password 
                 } else {
                     System.out.println("Wrong");
                 } // userName info  
             } // end while loop 
-           
+        
             // Check out vs return 
             System.out.println("Enter (1) to check out or (2) to return: ");
             int checkOut = scan.nextInt();
@@ -50,10 +75,12 @@ public class Main {
                 System.out.print("Enter ISBN for checkout: ");
                 String temp1 = scan.nextLine();
                 String bookChoice = scan.nextLine();
+            
 
                 for (int i = 0; i < bs1.getShelf().size(); i++) {
                     if (bookChoice.equals(bs1.getShelf().get(i).getIsbn())) {
                         b1.getInventory().add(bs1.getShelf().get(i));
+
                     }
                 }
                 
@@ -63,14 +90,14 @@ public class Main {
 
             }
 
-         } else if (userChoice == 3) {
+        } else if (userChoice == 3) {
             /*
                 This branch will be used to create new users.
 
             */
             
             
-         } else {
+        } else {
             boolean run = true;
             while (run == true) {
                 System.out.print("Enter ID: ");
@@ -81,13 +108,13 @@ public class Main {
                     if (password2 == l1.getPassword()) {
                         run = false;
                     } else {
-                      System.out.println("Wrong");  
+                    System.out.println("Wrong");  
                     } // password 
                 } else {
                     System.out.println("Wrong");
                 } // userName info  
             } // end while loop 
-           
+        
             // ask to return or checkout or add book
             System.out.println("Enter (1) Checkout (2) return (3) add book: ");
             int choice3 = scan.nextInt();
@@ -107,7 +134,7 @@ public class Main {
                     }
                 }
                 
-               
+            
 
             } else if (choice3 == 2) {
                 // return 
@@ -116,11 +143,13 @@ public class Main {
             }
 
 
-         } // librarian tree
+        } // librarian tree
+       
 
-        
+    
+       
 
-
+    
     } // end main method 
     
 
