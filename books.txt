@@ -1,6 +1,6 @@
-"A history of knowledge past"," present"," and future","Author","345373162","genre","False",1999
+"A history of knowledge past","Author","345373162","genre","False",1999
 "Alien abductions","Author","737715898","genre","False",1999
-"Debunk it!:how to stay sane in a world of misinformation","Author","1936976684","Nonfiction","False",1999" "The demon-haunted world:science as a candle in the dark","Author","039453512X","genre","False",1999
+"Debunk it!:how to stay sane in a world of misinformation","Author","1936976684","Nonfiction","False",1999"
 "Missing! Mysterious Cases of People Gone Missing Through the Centuries:mysterious cases of people gone missing through the centuries /","Author","9781250133403","Nonfiction","False",1999
 "Mysterious places","Author","737716444","genre","False",1999
 "UFOs","Author","737710705","Nonfiction","False",1999
@@ -9,36 +9,36 @@
 "Chaos:a very short introduction","Author","192853783","Nonfiction","False",1999
 "The last lecture","Author","9781401323257","genre","False",1999
 "Jerry Yang and David Filo:chief yahoos of Yahoo!","Author","761319611","genre","False",1999
-"ENIAC"," the triumphs and tragedies of the world's first computer","Author","802713483","genre","False",1999
+"ENIAC the triumphs and tragedies of the world's first computer","Author","802713483","genre","False",1999
 "Taking your iPad to the max","Author","9781430231080","Nonfiction","False",1999
 "The Road Ahead","Author","670772895","genre","False",1999
-"Beginning C++ through game programming"," third edition","Author","1435457420","Nonfiction","False",1999
+"Beginning C++ through game programming","Author","1435457420","Nonfiction","False",1999
 "HTML 4 for dummies","Author","764519956","genre","False",1999
 "Virtual reality","Author","1590181077","genre","False",1999
-"Book lust:recommended reading for every mood"," moment"," and reason","Author","1570613818","genre","False",1999
+"Book lust:recommended reading for every mood","Author","1570613818","genre","False",1999
 "Italy at war","Author","809434253","genre","False",1999
-"The information:a history"," a theory"," a flood","Author","9780375423727","Nonfiction","False",1999
+"The information:a history","Author","9780375423727","Nonfiction","False",1999
 "The library book","Author","9781476740188","Nonfiction","False",1999
 "When books went to war:the stories that helped us win World War II","Author","544535022","Nonfiction","False",1999
-"What we see when we read:a phenomenology ; with illustrations","Author","804171637","Nonfiction","False",1999
+"What we see when we read:a phenomenology with illustrations","Author","804171637","Nonfiction","False",1999
 "Guinness world records 2016","Author","9781910561027","Nonfiction","False",1999
-"Guinness World Records"," 2019","Author","9781912286430","Nonfiction","False",1999
+"Guinness World Records 2019","Author","9781912286430","Nonfiction","False",1999
 "One million things:a visual encyclopedia","Author","756638437","genre","False",1999
 "Ripley's believe it or not!","Author","9781338113242","Nonfiction","False",1999
-"Guinness world records"," 2015","Author","9781908843630","Nonfiction","False",1999
+"Guinness world records 2015","Author","9781908843630","Nonfiction","False",1999
 "Great Wonders of the World","Author","789465051","genre","False",1999
 "The Guinness book of records 1492","Author","816027722","genre","False",1999
 "Guinness world records 2010","Author","9781904994503","genre","False",1999
 "Scholastic book of world records 2013","Author","9781451771237","Nonfiction","False",1999
-"The world almanac and book of facts"," 2011","Author","1600571344","genre","False",1999
-"The world almanac for kids"," 2007","Author","886879833","genre","False",1999
+"The world almanac and book of facts 2011","Author","1600571344","genre","False",1999
+"The world almanac for kids 2007","Author","886879833","genre","False",1999
 "The World almanac and book of facts 2010","Author","9781600571237","genre","False",1999
 "Guinness world records 2017","Author","9781910561331","Nonfiction","False",1999
 "Television","Author","810916517","genre","False",1999
-"The crowd sounds happy:a story of love, madness, and baseball","Author","9780375400285","genre","False",1999
+"The crowd sounds happy:a story of love madness and baseball","Author","9780375400285","genre","False",1999
 "Eyewitness on Cincinnati.","Author","genre","genre","False",1999
 "Genius in Disguise","Author","786703237","genre","False",1999
-"Muckrakers:how Ida Tarbell , Upton Sinclair, and Lincoln Steffens helped expose scandal, inspire reform, and invent investigative journalism","Author","9781426301377","genre","False",1999
+"Muckrakers:how Ida Tarbell  Upton Sinclair and Lincoln Steffens helped expose scandal inspire reform and invent investigative journalism","Author","9781426301377","genre","False",1999
 "Edward R. Murrow and the birth of broadcast journalism","Author","471477532","genre","False",1999
 "Paris:a love story","Author","9781451691542","Nonfiction","False",1999
 "Hit list for children 2:frequently challenged books","Author","838908306","genre","False",1999
@@ -46,7 +46,7 @@
 "Banned in the U.S.A.:a reference guide to book censorship in schools and public libraries","Author","313311668","Nonfiction","False",1999
 "100 banned books:censorship histories of world literature","Author","816040591","genre","False",1999
 "Hit list for young adults 2:frequently challenged books","Author","838908357","genre","False",1999
-"Banned books"," 387 B.C. to 1978 A.D","Author","835210782","genre","False",1999
+"Banned books 387 B.C. to 1978 A.D","Author","835210782","genre","False",1999
 "Thinking it through:an introduction to contemporary philosophy","Author","195134583","Nonfiction","False",1999
 "Making sense:philosophy behind the headlines","Author","192803395","Nonfiction","False",1999
 "Philosophy:a very short introduction","Author","192854216","genre","False",1999
@@ -62,7 +62,7 @@
 "The 100 most influential philosophers of all time","Author","9781615300099","genre","False",1999
 "Metaphysics","Author","140446192","genre","False",1999
 "Metaphysics:a very short introduction","Author","9780199657124","Nonfiction","False",1999
-"The book of nothing:vacuums"," voids"," and the latest ideas about the origins of the universe","Author","375420991","genre","False",1999
+"The book of nothing:vacuums,"Author","375420991","genre","False",1999
 "Being and nothingness","Author","844669121","genre","False",1999
 "The critique of pure reason","Author","genre","genre","False",1999
 "An Essay Concerning Human Understanding","Author","198245955","genre","False",1999
@@ -89,10 +89,10 @@
 "Existentialism:a very short introduction","Author","192804286","Nonfiction","False",1999
 "Agnosticism:a very short introduction","Author","9780199575268","Nonfiction","False",1999
 "Psychology:a very short introduction","Author","192853813","genre","False",1999
-"Freud:a very short introduction /","Author","192854550","Nonfiction","False",1999
+"Freud:a very short introduction ","Author","192854550","Nonfiction","False",1999
 "Man and his symbols","Author","385052219","genre","False",1999
 "A natural history of the senses","Author","679735666","genre","False",1999
 "The vision revolution:how the latest research overturns everything we thought we knew about human vision","Author","9781933771663","Nonfiction","False",1999
 "101 amazing optical illusions:fantastic visual tricks","Author","806994622","genre","False",1999
 "Find your why:a practical guide for discovering purpose for you and your team","Author","9780143111726","Nonfiction","False",1999
-"Frames of Mind","Author"," ","genre","False",1999
+
