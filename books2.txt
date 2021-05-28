@@ -1,4 +1,4 @@
-"A history of knowledge past","Author","345373162","genre","False",1999
+"A history of knowledge past","Author","345373162","genre","True",1999
 "Alien abductions","Author","737715898","genre","False",1999
 "Debunk it!:how to stay sane in a world of misinformation","Author","1936976684","Nonfiction","False",1999
 "Missing! Mysterious Cases of People Gone Missing Through the Centuries:mysterious cases of people gone missing through the centuries /","Author","9781250133403","Nonfiction","False",1999
@@ -51,7 +51,7 @@
 "Making sense:philosophy behind the headlines","Author","192803395","Nonfiction","False",1999
 "Philosophy:a very short introduction","Author","192854216","genre","False",1999
 "Philosophy 2:a very short introduction","Author","192854216","genre","False",1999
-"A Kierkegaard anthology.","Author","1223432","genre","False",1999
+"A Kierkegaard anthology.","Author","genre","genre","False",1999
 "The Everything Philosophy Book:Understanding the Basic Concept of Great Thinkers-From Socrates to Sartre.","Author","1580626440","genre","False",1999
 "The philosophy book","Author","756668611","genre","False",1999
 "The art of loving","Author","genre","genre","False",1999

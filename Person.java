@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
+
+
 public class Person {
+    // build a person 
+    
     private String userName;
     private int password;
 
@@ -21,6 +25,8 @@ public class Person {
 
 
     public List<Book> getInventory() {
+       
+
         return inventory;
     }
 
