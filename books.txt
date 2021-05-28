@@ -1,6 +1,6 @@
 "A history of knowledge past","Author","345373162","genre","False",1999
 "Alien abductions","Author","737715898","genre","False",1999
-"Debunk it!:how to stay sane in a world of misinformation","Author","1936976684","Nonfiction","False",1999"
+"Debunk it!:how to stay sane in a world of misinformation","Author","1936976684","Nonfiction","False",1999
 "Missing! Mysterious Cases of People Gone Missing Through the Centuries:mysterious cases of people gone missing through the centuries /","Author","9781250133403","Nonfiction","False",1999
 "Mysterious places","Author","737716444","genre","False",1999
 "UFOs","Author","737710705","Nonfiction","False",1999

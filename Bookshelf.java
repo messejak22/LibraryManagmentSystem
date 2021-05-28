@@ -17,11 +17,10 @@ public class Bookshelf {
             Book b1 = new Book(catalog[i][0], catalog[i][1], catalog[i][2], catalog[i][3], Boolean.parseBoolean(catalog[i][4]), Integer.parseInt(catalog[i][5]) );
         }
 
-
+      
 
 
         /*
-
         Book b1 = new Book("Green Eggs and Ham", "Dr. Seuss", "12514312X");
         Book b2 = new Book("Harry Potter", "JK Rowling", "12314312X");
         Book b3 = new Book("The Great Gatsby", "F.Scott Fitzgerald", "007462542X");
@@ -39,17 +38,7 @@ public class Bookshelf {
     }
 
 
-    public static void sort() {
-        int n = bookList.size();
-        for (int i = 0; i < n; i++) {
-            for (int j = 1; j < n-1; j++) {
-               if (bookList.get(i).getTitle().compareTo(bookList.get(j).getTitle()) < 0) {
-                   Collections.swap(bookList, i, j);
-               } 
-            }
-        }        
 
-    }
     
 
 
